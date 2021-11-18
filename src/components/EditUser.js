@@ -14,7 +14,7 @@ export function EditUser(props) {
     const newemail = document.getElementById("email1").value;
     const newPhoneNumber = document.getElementById("phoneNumber1").value;
     const obj = { name: newname, email: newemail, phoneNumber: newPhoneNumber };
-    //console.log(props.data.id);
+    console.log(props.data.id);
     store.dispatch(UpdateUser(props.data.id, obj));
   };
   return (
