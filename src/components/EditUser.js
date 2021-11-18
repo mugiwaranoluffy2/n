@@ -6,6 +6,7 @@ import store from "../store";
 import { UpdateUser } from "../Actions";
 
 export function EditUser(props) {
+  console.log(props);
   // const [data,setData] = useState(props.data);
 
   const handleSubmit = (event) => {
